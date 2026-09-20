@@ -33,16 +33,16 @@ static int get_bit(int pattern, int pos) {
 
 static int left_digit_pattern(char digit) {
     switch (digit) {
-        case '0': return 1110010;
-        case '1': return 1100110;
-        case '2': return 1101100;
-        case '3': return 1010000;
-        case '4': return 1011100;
-        case '5': return 1001110;
-        case '6': return 1000010;
-        case '7': return 1000100;
-        case '8': return 1001000;
-        case '9': return 1110100;
+        case '0': return 0x72;
+        case '1': return 0x66;
+        case '2': return 0x6C;
+        case '3': return 0x50;
+        case '4': return 0x5C;
+        case '5': return 0x4E;
+        case '6': return 0x42;
+        case '7': return 0x44;
+        case '8': return 0x48;
+        case '9': return 0x74;
         default: return 0;
     }
 }
